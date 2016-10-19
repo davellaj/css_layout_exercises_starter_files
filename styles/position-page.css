@@ -1,1 +1,23 @@
+body{
+	 background: url("../images/outerspace_landscape.jpeg") no-repeat; 
+	 background-size: cover;
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}*/
 
+nav >img {
+	border-radius: 50%;
+}
+ul{
+	display: inline-block;
+}
+
+li{
+	list-style-type: none;
+}
+
+/*img{
+	border-radius: circle;
+}*/
