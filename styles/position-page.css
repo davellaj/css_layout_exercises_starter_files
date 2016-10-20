@@ -19,7 +19,7 @@ nav img{
 	border: 1px solid black;
 	position: relative;
 	left: 60px;
-	/*right: 60px;*/
+/*	right: 60px;*/
 	top: 5px;
 	display: inline-block;
 
@@ -28,8 +28,8 @@ nav img{
 
 nav ul {
 	position: relative;
-	top: -5px;
-	left: 60px;
+	top: -10px;
+	left: 100px;
 	display: inline-block;
 }
 
