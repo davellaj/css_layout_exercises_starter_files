@@ -1,0 +1,22 @@
+{
+  "name": "css_layout_exercises_starter_files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davellaj/css_layout_exercises_starter_files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davellaj/css_layout_exercises_starter_files/issues"
+  },
+  "homepage": "https://github.com/davellaj/css_layout_exercises_starter_files#readme",
+  "dependencies": {
+    "reset-css": "^2.2.0"
+  }
+}
