@@ -33,3 +33,29 @@ nav a::after {
 	content: " |";
 	color: black;
 }
+
+/*start of main body styling*/
+.container{
+	border: 6px dashed green;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	margin-top: 125px;
+}
+
+.cat{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: -100px;
+	top: -100px;
+
+}
+
+.dog{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	right: -250px;
+	bottom: -150px;
+}
