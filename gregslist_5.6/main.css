@@ -30,7 +30,7 @@ ul{
 	
 }
 
-li{
+.nav-links li{
 	display: inline-block;
 	font-size: 20px;
 }
@@ -65,4 +65,9 @@ main{
 
 .search-field{
 	padding: 20px;
+}
+
+.result-links li{
+	display: inline-block;
+	position: relative;
 }
