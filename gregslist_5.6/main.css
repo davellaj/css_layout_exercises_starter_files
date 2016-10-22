@@ -74,12 +74,13 @@ main{
 	display: inline-block;
 	color: black;
 	border: 1px solid gray;
-	margin: 0px;
 	padding: 10px;
 	border-radius: 3px;
 	list-style: none;
 	height: 30px;
 	margin-right: -5px;
+	margin-top: 10px;
+	line-height: 10px;
 }
 
 .result-links a{
