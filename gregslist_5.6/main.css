@@ -45,7 +45,7 @@ nav li:hover a{
 }
 
 main{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-left: 75px;
 }
 
@@ -79,7 +79,8 @@ main{
 	list-style: none;
 	height: 30px;
 	margin-right: -5px;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	line-height: 10px;
 }
 
@@ -87,3 +88,31 @@ main{
 	text-decoration: none;
 	color: black;
 }
+
+/*search results*/
+/*looks good with title width begin short but if the
+paragraph is too long and wraps to the second line the 
+structure is all thrown off. How can I avoid this?*/
+.results{
+/*	line-height: 5px;*/
+	margin-bottom: -20px;
+}
+.results > p{
+	display: inline-block;
+}
+.results a{
+	text-decoration: none;
+}
+
+.date, .location {
+	margin-right: 15px;
+	color: gray;
+	font-size: 16px;
+}
+
+.job{
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+
