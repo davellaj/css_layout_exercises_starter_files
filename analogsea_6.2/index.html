@@ -11,7 +11,25 @@
 		<img src="images/logo.png" alt="logo">
 	</header>
 	<main>
-		
+		<form action="/signup" method="post">
+			<h1>Sign up</h1>
+
+			<fieldset name="log-in">
+				<label for="email" required>Email</label>
+				<input id="email" type="email" name="email" placeholder="foo@bar.com" required=""/>
+
+				<label for="password" required>Password</label>
+				<input id="password" type="password" name="password" placeholder="1234passw0rd" required=""/>
+
+				<button type="submit">Sign up</button>
+			</fieldset>
+
+			<p><a href="/forgot-password/new">Forgot password?</a></p>
+		</form>
+
+		<div>
+			<p>Already have an account? <a href="/login">Log in</a></p>
+		</div>
 	</main>
 </body>
 </html>

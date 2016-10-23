@@ -1,8 +1,11 @@
 body{
 	box-sizing: border-box;
-	background: blue;
+	background: #1E90FF;
 }
 
+header{
+	padding: 30px;
+}
 header img{
 	display: block;
 	margin: auto;
