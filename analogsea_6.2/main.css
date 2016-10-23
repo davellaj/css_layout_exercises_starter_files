@@ -1,0 +1,10 @@
+body{
+	box-sizing: border-box;
+	background: blue;
+}
+
+header img{
+	display: block;
+	margin: auto;
+	height: 35px;
+}
