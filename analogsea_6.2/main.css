@@ -1,6 +1,10 @@
-body{
+*{
 	box-sizing: border-box;
+}
+
+body{
 	background: #1E90FF;
+	font-family: Helvetica;
 }
 
 header{
@@ -10,4 +14,52 @@ header img{
 	display: block;
 	margin: auto;
 	height: 35px;
+}
+
+fieldset{
+	border:	none;
+	margin: auto;
+}
+
+.new-user{
+	margin: auto;
+	background: white;
+	width: 400px;
+	height: 475px;
+	border-radius: 3px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+input, button {
+	width: 320px;
+	height: 55px;
+	border: 2px solid grey;
+	padding: 15px;
+}
+
+button{
+	background: #90EE90;
+	color: white;
+}
+
+.forgot-pword, .already-user{
+	text-align: center;
+}
+
+.forgot-pword a{
+	color: grey;
+}
+
+.already-user, .already-user a{
+	color: white;
+}
+
+form > h1{
+	color: #778899;
+	text-align: center;
+	padding: 30px;
+}
+
+label{
 }
