@@ -19,6 +19,7 @@ header img{
 fieldset{
 	border:	none;
 	margin: auto;
+	padding: 0px;
 }
 
 .new-user{
@@ -36,30 +37,47 @@ input, button {
 	height: 55px;
 	border: 2px solid grey;
 	padding: 15px;
+	font-size: 18px;
+	border-radius: 3px;
 }
 
 button{
-	background: #90EE90;
+	background: #8FBC8F;
 	color: white;
+	margin-top: 20px;
+}
+
+button:hover{
+	background: green;
 }
 
 .forgot-pword, .already-user{
 	text-align: center;
 }
 
+.forgot-pword{
+	margin-top: 10px;
+}
 .forgot-pword a{
 	color: grey;
+	font-size: 14px; 
 }
 
 .already-user, .already-user a{
 	color: white;
+	font-weight: 800;
+	font-size: 16px;
 }
 
 form > h1{
 	color: #778899;
 	text-align: center;
-	padding: 30px;
+	padding-top: 40px;
 }
 
 label{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
